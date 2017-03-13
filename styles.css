@@ -1,0 +1,69 @@
+
+  html,body{
+  background: #000;
+  max-width: 100%;
+ overflow-x: hidden;
+
+}
+
+.table{
+  color: lime;
+  font-family: "Andale Mono";
+  font-size: 15px;
+}
+
+.span{
+  padding-top: 40px;
+  color: lime;
+  font-family: "Andale Mono";
+  font-size: 15px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100em;
+
+}
+#content{
+  padding-top: 40px;
+}
+
+p{
+  color: lime;
+  font-family: "Andale Mono";
+  font-size: 15px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100em;
+  animation: type 1.0s steps(60, end);  }
+
+h1,h2,h3{
+  color: lime;
+  font-family: "Andale Mono";
+  padding:0px;
+  /*animation:type 1.0s steps(5,end);*/
+}
+
+.btn
+{   background-color: lime; /* Green */
+    border: solid black;
+    text-decoration: none;
+    color: inherit;
+    width:25px;
+    height: 100px;
+
+    }
+
+#footer {
+   position : fixed;
+   bottom : 0;
+   height : 40px;
+   color:lime;
+  display:none;
+ }
+
+
+@keyframes type{
+  from { width: 0; }
+  to { width: 60% }
+}
